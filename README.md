@@ -20,6 +20,9 @@ Este proyecto es una aplicación web para la gestión de créditos, desarrollada
 
 ## 🛠️ Instalación y Ejecución
 
+### **PRECONDICIONES**
+- Tener instalado python o python3, node y npm
+
 ### 🔹 **1. Configurar y Ejecutar el Backend (Flask)**
 
 #### 1️⃣ **Clonar el repositorio**
