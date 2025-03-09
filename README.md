@@ -30,7 +30,6 @@ cd tu_repositorio/backend
 
 #### 2️⃣ **Activar entorno virtual** (opcional pero recomendado)
 ```bash
-python -m venv venv
 # En Windows:
 examenPractico\Scripts\activate
 # En Mac/Linux:
