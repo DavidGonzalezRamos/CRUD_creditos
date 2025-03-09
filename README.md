@@ -24,21 +24,24 @@ Este proyecto es una aplicación web para la gestión de créditos, desarrollada
 
 #### 1️⃣ **Clonar el repositorio**
 ```bash
-git clone https://github.com/tu_usuario/tu_repositorio.git
-cd tu_repositorio/backend
+git clone https://github.com/DavidGonzalezRamos/CRUD_creditos.git
+cd CRUD_creditos
 ```
 
-#### 2️⃣ **Activar entorno virtual** (opcional pero recomendado)
+#### 2️⃣ **Crear y activar entorno virtual** (opcional pero recomendado)
 ```bash
+#creacion del entorno
+cd examen_backend
+python3 -m venv .venv
 # En Windows:
-examenPractico\Scripts\activate
+.venv\Scripts\activate
 # En Mac/Linux:
-source examenPractico/bin/activate
+source .venv/bin/activate
 ```
 
 #### 3️⃣ **Instalar dependencias**
 ```bash
-pip install -r requirements.txt
+pip install flask flask_sqlalchemy flask_cors matplotlib
 ```
 
 #### 4️⃣ **Ejecutar el servidor**
@@ -52,9 +55,9 @@ El backend se ejecutará en: **http://localhost:5000**
 
 ### 🔹 **2. Configurar y Ejecutar el Frontend (React)**
 
-#### 1️⃣ **Ir a la carpeta del frontend**
+#### 1️⃣ **Ir a la carpeta del frontend en otra terminal**
 ```bash
-cd ../frontend
+cd .examen_frontend
 ```
 
 #### 2️⃣ **Instalar dependencias**
