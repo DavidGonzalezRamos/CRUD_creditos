@@ -57,7 +57,7 @@ El backend se ejecutará en: **http://localhost:5000**
 
 #### 1️⃣ **Ir a la carpeta del frontend en otra terminal**
 ```bash
-cd .examen_frontend
+cd examen_frontend
 ```
 
 #### 2️⃣ **Instalar dependencias**
