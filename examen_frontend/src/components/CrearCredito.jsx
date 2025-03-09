@@ -36,6 +36,13 @@ function CrearCredito() {
       <h2 className="text-2xl font-semibold text-center mb-6">
         Registrar Crédito
       </h2>
+      {/* Botón para regresar al Dashboard */}
+      <button
+        onClick={() => navigate("/")}
+        className="mb-6 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400"
+      >
+        Regresar al Dashboard
+      </button>
       <form onSubmit={handleSubmit} className="space-y-4">
         <input
           type="text"
